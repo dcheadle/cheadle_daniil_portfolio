@@ -1,0 +1,129 @@
+body{
+    font-family: "Helvetica Neue", sans-serif;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+h3 {
+    font-size: 15px;
+    color:#D9594E;
+    background: #FFF;
+    display: inline-block;
+    position: absolute;
+    top: -7px;
+    margin: 0;
+    margin-left: -8%;
+    padding: 0 10px;
+}
+.title {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    position: relative;
+    margin: 30px 0;
+}
+h4 {
+    font-size: 10px;
+    color: #D9594E;
+}
+.category {
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 300;
+}
+.keywords {
+    font-size: 15px;
+    font-style: normal;
+}
+.description {
+    font-size: 15px;
+    font-style:normal;
+}
+.info {
+    font-size: 15px;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+header {
+    text-align: center;
+}
+header p,
+header img {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px; 
+}
+.double img,
+.home .double .container {
+    display: inline-block;
+    width: 49%;
+}
+.double div img {
+    width: 100%;
+}
+.triple img {
+    display: inline-block;
+    width: 33%;
+}
+
+
+
+section {
+    max-width: 95%;
+    margin: 0 auto;
+}
+section.single {
+    max-width: 100%;
+}
+.single img, .double img, .triple img{
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.20);
+}
+.container {
+  position: relative;
+    width: 49%;
+    display: inline-block;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 98%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 6px solid rgba(127, 203, 215, 0.9);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
